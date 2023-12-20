@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Turntable/1.0.0": {
+        "dependencies": {
+          "TurntableHelper": "1.0.0"
+        },
+        "runtime": {
+          "Turntable.dll": {}
+        }
+      },
+      "TurntableHelper/1.0.0": {
+        "runtime": {
+          "TurntableHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Turntable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TurntableHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿<Window x:Class="Turntable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Rectangle Width="220" Height="450" Stroke="Black" StrokeThickness="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,10,0,0">
+            <Rectangle.Fill>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <Grid>
+                            <!-- Loop through rows -->
+                            <ItemsControl ItemsSource="{Binding Rows}" VerticalAlignment="Top">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <!-- Loop through columns -->
+                                            <ItemsControl ItemsSource="{Binding}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <Border BorderBrush="Black" BorderThickness="1" Margin="1">
+                                                            <Grid>
+                                                                <Rectangle Width="100" Height="35" Fill="{Binding Color}" />
+                                                                <TextBlock Text="{Binding Text}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" />
+                                                            </Grid>
+                                                        </Border>
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Grid>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid> 
+</Window>
+

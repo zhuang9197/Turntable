@@ -1,0 +1,12 @@
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.deps.json
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.dll
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.pdb
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.csproj.AssemblyReference.cache
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.AssemblyInfoInputs.cache
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.AssemblyInfo.cs
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.csproj.CoreCompileInputs.cache
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.dll
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\refint\TurntableHelper.dll
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.pdb
+D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\ref\TurntableHelper.dll
