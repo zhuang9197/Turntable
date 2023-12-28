@@ -62,7 +62,7 @@
         </Rectangle>
         <!--<Button Content="新增" HorizontalAlignment="Left" Margin="650,400,0,0" VerticalAlignment="Top"  Height="40" Width="80"/>-->
         <Button Content="新 增" Click="OpenAddPopup_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="650,380,0,0" Height="40" Width="80"/>
-        <Button Content="生 成" HorizontalAlignment="Left" Margin="650,80,0,0" VerticalAlignment="Top"  Height="40" Width="80"/>
+        <Button Content="生 成" Click="Serialize_Click"  HorizontalAlignment="Left" Margin="650,80,0,0" VerticalAlignment="Top"  Height="40" Width="80"/>
 
         <Popup x:Name="AddPopup" Placement="Center" Width="300" Height="200" IsOpen="False" StaysOpen="True">
             <Border Background="WhiteSmoke" Margin="0" CornerRadius="5" BorderThickness="1" BorderBrush="DarkGray"

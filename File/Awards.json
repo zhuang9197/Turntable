@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "Color": "#FFF91A66",
+    "Probability": 60,
+    "Name": "泽冰"
+  },
+  {
+    "ID": 2,
+    "Color": "#FF845537",
+    "Probability": 60,
+    "Name": "腾飞"
+  },
+  {
+    "ID": 3,
+    "Color": "#FFE54302",
+    "Probability": 60,
+    "Name": "陈龙"
+  },
+  {
+    "ID": 4,
+    "Color": "#FFDA03CD",
+    "Probability": 60,
+    "Name": "雨森"
+  },
+  {
+    "ID": 5,
+    "Color": "#FF6312AB",
+    "Probability": 120,
+    "Name": "十一"
+  }
+]

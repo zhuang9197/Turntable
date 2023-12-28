@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Turntable.Helper;
+using TurntableHelper.Helper;
 using TurntableHelper.Model;
 using TurntableHelper.ViewModel;
 
@@ -213,8 +215,9 @@ namespace Turntable
 
                 if (flag)
                 {
-                    _awards.Add(new AwardsModel { ID = IDResult, Color = Brushes.Blue, Probability = ProbabilityResult, Name = TextBoxName.Text });
-                    viewModel.Add(new AwardsModel { ID = IDResult, Color = Brushes.Blue, Probability = ProbabilityResult, Name = TextBoxName.Text });
+                    var tempColor = ColorHelper.SolidColorBrush(_awards);
+                    _awards.Add(new AwardsModel { ID = IDResult, Color = tempColor, Probability = ProbabilityResult, Name = TextBoxName.Text });
+                    viewModel.Add(new AwardsModel { ID = IDResult, Color = tempColor, Probability = ProbabilityResult, Name = TextBoxName.Text });
 
                     TextClear();
                     AddPopup.IsOpen = false;
@@ -379,7 +382,7 @@ namespace Turntable
             }
 
             // 检查 TextBoxProbability 是否可以成功转换为整数，并且在 0 到 360 之间
-            if (!int.TryParse(TextBoxProbability.Text, out __) || __ < 0 || __ > 360)
+            if (!int.TryParse(TextBoxProbability.Text, out __) || __ <= 0 || __ > 360)
             {
                 return false;
             }
@@ -394,6 +397,36 @@ namespace Turntable
             TextBoxNumber.Text = string.Empty;
             TextBoxProbability.Text = string.Empty;
             TextBoxName.Text = string.Empty;
+        }
+
+        private void Serialize_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (_awards.Count > 0)
+                {
+                    if (_awards.Sum(_ => _.Probability) != 360)
+                    {
+                        MessageBox.Show("生成转盘请确保所有奖项概率和等于360,现在不等于捏!");
+                    }
+                    else
+                    {
+                        App.Awards.Clear();
+                        foreach (var item in _awards)
+                        {
+                            App.Awards.Add(item.clone());
+                        }
+
+                        JsonSerializationHelper.SerializeToFile(App.Awards, CommonHelper.AwardsFilePath);
+                        MessageBox.Show("生成成功捏！");
+                    }
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+            
         }
     }
 }

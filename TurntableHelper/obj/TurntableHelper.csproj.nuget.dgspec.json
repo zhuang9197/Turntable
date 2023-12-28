@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {}
+    "D:\\ProgramData\\git\\clone\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {
+    "D:\\ProgramData\\git\\clone\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj",
+        "projectUniqueName": "D:\\ProgramData\\git\\clone\\Turntable\\TurntableHelper\\TurntableHelper.csproj",
         "projectName": "TurntableHelper",
-        "projectPath": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj",
+        "projectPath": "D:\\ProgramData\\git\\clone\\Turntable\\TurntableHelper\\TurntableHelper.csproj",
         "packagesPath": "C:\\Users\\22807\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\obj\\",
+        "outputPath": "D:\\ProgramData\\git\\clone\\Turntable\\TurntableHelper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Data\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\22807\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,9 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org/api/v2/": {}
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://nuget.cnblogs.com/v3/index.json": {},
+          "https://repo.huaweicloud.com/repository/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -70,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
