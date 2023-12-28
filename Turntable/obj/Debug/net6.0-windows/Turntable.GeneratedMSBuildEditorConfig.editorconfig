@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Turntable
-build_property.ProjectDir = D:\ProgramData\VS\Project\Turntable\Turntable\
+build_property.ProjectDir = C:\Users\22807\Desktop\NewGitHub\Turntable\Turntable\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

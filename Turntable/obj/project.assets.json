@@ -2,9 +2,25 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "TurntableHelper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "compile": {
           "bin/placeholder/TurntableHelper.dll": {}
         },
@@ -18,6 +34,36 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "TurntableHelper/1.0.0": {
       "type": "project",
       "path": "../TurntableHelper/TurntableHelper.csproj",
@@ -31,19 +77,19 @@
   },
   "packageFolders": {
     "C:\\Users\\22807\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Data\\VisualStudio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProgramData\\VS\\Project\\Turntable\\Turntable\\Turntable.csproj",
+      "projectUniqueName": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\Turntable\\Turntable.csproj",
       "projectName": "Turntable",
-      "projectPath": "D:\\ProgramData\\VS\\Project\\Turntable\\Turntable\\Turntable.csproj",
+      "projectPath": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\Turntable\\Turntable.csproj",
       "packagesPath": "C:\\Users\\22807\\.nuget\\packages\\",
-      "outputPath": "D:\\ProgramData\\VS\\Project\\Turntable\\Turntable\\obj\\",
+      "outputPath": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\Turntable\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Data\\VisualStudio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\22807\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,16 +102,15 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://nuget.cdn.azure.cn/v3/index.json": {},
-        "https://nuget.cnblogs.com/v3/index.json": {},
-        "https://repo.huaweicloud.com/repository/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\ProgramData\\VS\\Project\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {
-              "projectPath": "D:\\ProgramData\\VS\\Project\\Turntable\\TurntableHelper\\TurntableHelper.csproj"
+            "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj": {
+              "projectPath": "C:\\Users\\22807\\Desktop\\NewGitHub\\Turntable\\TurntableHelper\\TurntableHelper.csproj"
             }
           }
         }
@@ -98,7 +143,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

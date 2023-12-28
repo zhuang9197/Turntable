@@ -10,3 +10,16 @@ D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\Tur
 D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\refint\TurntableHelper.dll
 D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.pdb
 D:\ProgramData\VS\Project\Turntable\TurntableHelper\obj\Debug\net6.0-windows\ref\TurntableHelper.dll
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.deps.json
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.dll
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\bin\Debug\net6.0-windows\TurntableHelper.pdb
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.csproj.AssemblyReference.cache
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.AssemblyInfoInputs.cache
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.AssemblyInfo.cs
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.csproj.CoreCompileInputs.cache
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.sourcelink.json
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.dll
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\refint\TurntableHelper.dll
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\TurntableHelper.pdb
+C:\Users\22807\Desktop\NewGitHub\Turntable\TurntableHelper\obj\Debug\net6.0-windows\ref\TurntableHelper.dll
