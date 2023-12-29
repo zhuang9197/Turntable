@@ -1,4 +1,4 @@
-﻿<Window x:Class="Turntable.TurntableWindow"
+﻿<Page x:Class="Turntable.TurntableWindow"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,13 +6,30 @@
       xmlns:local="clr-namespace:Turntable"
       mc:Ignorable="d" 
       d:DesignHeight="500" d:DesignWidth="800"
+      Height="500" Width="800"
       Title="TurntableWindow">
 
     <Grid>
-        <Canvas x:Name="myCanvas" Width="400" Height="400" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20">
+        <Polygon x:Name="PointPolygon" Points="75,0 67,0 71,15" Fill="Red" Stroke="Black" StrokeThickness="1" Height="15" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="160,205,0,20">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Canvas x:Name="myCanvas" Width="460" Height="460" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20">
             <Canvas.RenderTransform>
-                <RotateTransform x:Name="rotateTransform" CenterX="300" CenterY="250" />
+                <RotateTransform x:Name="rotateTransform" CenterX="210" CenterY="210" />
             </Canvas.RenderTransform>
+            
         </Canvas>
+        <Button Content="开始" Click="TurntableRotate_Click" HorizontalAlignment="Left" Margin="630,100,0,0" VerticalAlignment="Top" Height="40" Width="80"/>
+        <TextBlock Text="半径:" TextAlignment="Center"   Margin="630,50,0,0" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="25"/>
+        <TextBox x:Name="TextRadius"  Margin="680,50,0,0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40" Height="25"/>
+        <Button Content="确定" Click="ConfirmRadius_Click" HorizontalAlignment="Left" Margin="740,50,0,0" VerticalAlignment="Top" Height="25" Width="40"/>
+
     </Grid>
-</Window>
+</Page>

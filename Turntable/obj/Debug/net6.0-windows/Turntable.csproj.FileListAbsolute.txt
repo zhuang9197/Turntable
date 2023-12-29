@@ -79,3 +79,5 @@ D:\ProgramData\git\clone\Turntable\Turntable\obj\Debug\net6.0-windows\refint\Tur
 D:\ProgramData\git\clone\Turntable\Turntable\obj\Debug\net6.0-windows\Turntable.pdb
 D:\ProgramData\git\clone\Turntable\Turntable\obj\Debug\net6.0-windows\Turntable.genruntimeconfig.cache
 D:\ProgramData\git\clone\Turntable\Turntable\obj\Debug\net6.0-windows\ref\Turntable.dll
+C:\Users\22807\Desktop\NewGitHub\Turntable\Turntable\obj\Debug\net6.0-windows\Configuer.baml
+C:\Users\22807\Desktop\NewGitHub\Turntable\Turntable\obj\Debug\net6.0-windows\Configuer.g.cs

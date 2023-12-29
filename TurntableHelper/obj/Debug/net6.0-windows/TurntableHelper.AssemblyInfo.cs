@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurntableHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd4f18ee474fca29a3e80882f3c9e31a854a278")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurntableHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurntableHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
